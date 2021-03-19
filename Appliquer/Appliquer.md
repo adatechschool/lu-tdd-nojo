@@ -13,3 +13,9 @@ Entrée pour chaque élément proposé sauf "test command : jest" <br>
 On a d'abord posé la structure du programme (fizzbuzz.js) <br>
 
 
+-Pytest :  <br>
+Mais il faut d'abord avoir installé pip  <br>
+Terminal -> curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py  <br>
+         -> python3 get-pip.py <br>
+         -> pip install pytest-cov<br>
+         -> Pour lancer les tests : pytest --cov=LeapYear test_leap.py/<br>
